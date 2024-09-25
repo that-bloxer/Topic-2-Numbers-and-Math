@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Press ENTER to Continue");
+﻿Console.ForegroundColor
+    = ConsoleColor.Green;
+Console.WriteLine("Press ENTER to Continue");
 Console.ReadLine();
 Console.WriteLine("I will now count my chickens:");
 Console.WriteLine("Hens " + (10 + 5 * 2));
@@ -27,4 +29,8 @@ Console.ReadLine();
 Console.WriteLine("The average of 14, 15 and 16 is " + ((14.0 + 15.0 + 16.0) / 3));
 Console.ReadLine();
 Console.WriteLine("The average of 14, 15, 16 and 17 is " + ((14.0 + 15.0 + 16.0 + 17.0) / 4));
+Console.ReadLine();
+Console.WriteLine("The area of a circle with a radius of 3cm is " + 3.14 * (3 * 3));
+Console.ReadLine();
+Console.WriteLine("gonna be honest I dunno");
 Console.ReadLine();
